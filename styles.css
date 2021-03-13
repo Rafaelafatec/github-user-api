@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+
+input{
+    margin: 5px;
+}
+
+#areaNameDev{
+    height: 30px;
+    width: 200px;
+}
+
+#buttonDev{
+    height: 36px;
+    width: 80px;
+    background-color: #0C91E8;
+    color: #fff;
+    font-size: 16px;
+}
