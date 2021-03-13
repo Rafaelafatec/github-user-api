@@ -13,7 +13,7 @@ nameInputDev.addEventListener('change', (event) => {
     n = msg(n);
 })
 
-function teste(){
+function render(){
     var dados = "";
     fetch(url_base + n)
     .then(res => res.json())
@@ -41,5 +41,5 @@ function teste(){
 }
 
 const browseDev = async () => {
-    return await teste();
+    return await render();
 }
